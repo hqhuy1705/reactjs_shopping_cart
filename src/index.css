@@ -1,0 +1,150 @@
+.fl-right {
+  float: right;
+}
+
+.ui {
+  font-size: 100%;
+  font-family: "Noto Sans", sans-serif !important;
+}
+
+.ui.label {
+  line-height: 1.5rem;
+}
+
+.ui.card.log-item {
+  background-color: #f5f6fa;
+}
+
+.ui.ui.card.log-item .image {
+  border-radius: 0px !important;
+}
+
+.ui.card.log-item .image-group img {
+  height: 100%;
+}
+
+.admin-layout_side-bar {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.info-field {
+  margin-top: 10px;
+}
+
+.info-field h5 {
+  margin-bottom: 5px;
+}
+
+.section-header .ui.breadcrumb {
+  font-size: 15px;
+  padding-top: 15px;
+}
+
+.section-header button {
+  float: right;
+}
+
+.section-header {
+  margin-bottom: 15px;
+}
+
+/* view menu */
+.item.menu-item {
+  min-height: 150px;
+  margin-bottom: 10px;
+  background: #ecf0f1;
+  padding: 30px !important;
+  border-radius: 5px;
+}
+
+.item .menu-item_actions {
+  float: right !important;
+}
+
+.item.menu-item .description {
+  margin-top: 15px;
+}
+
+/* menu modify modal */
+.menu-modify-modal {
+}
+
+.menu-modify-modal .description,
+.store-modify-modal .description {
+  min-width: 70% !important;
+}
+
+/* view orders */
+.grid-order {
+  background: #ecf0f1;
+  /* padding: 20px; */
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+/* store */
+.btn-cart-toggle {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* cart */
+.cart-item-name {
+  font-size: 12px !important;
+  margin-bottom: 5px !important;
+}
+
+.cart-item-note {
+  font-size: 11px;
+  font-style: italic;
+}
+
+.cart-quantity {
+  background: #ecf0f1;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.cart-subtotal {
+  font-size: 12px !important;
+  margin-bottom: 5px !important;
+  text-align: right;
+}
+
+.cart-remove {
+  /* padding: 5px; */
+}
+
+.cart-remove:hover {
+  cursor: pointer;
+}
+
+.total {
+  font-weight: bold;
+}
+
+/* authentication */
+.auth-form {
+  margin-top: 10%;
+}
+
+.auth-form img {
+  margin-bottom: 20px;
+}
+
+.main {
+  position: relative;
+  min-height: 100vh;
+}
+
+.footer {
+  position: absolute !important;
+  bottom: 0;
+  width: 100%;
+}
